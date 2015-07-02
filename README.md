@@ -7,8 +7,8 @@ Overview:
 - I want to be used these code for the meaning of education, studying on the game-cheating   
 
 Caution:
-- most of antivirus can be detect this file as malware.
-- the codes consists of standard WIN32 API Writeprocessmemory, so it can be detected like malware a various way of detect method.
+- most of antivirus can be detect this file as a malware.
+- the codes consist of standard WIN32 API Writeprocessmemory, so it can be detected like malware a various way of detect method.
 
 Requirements:
  * VS6.0+SP3 (Platform SDK 2003)
