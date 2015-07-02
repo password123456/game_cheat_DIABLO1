@@ -1,3 +1,11 @@
+/*
+This is simple writeprocess POC codes for to do cheat games.
+The POC codes for PC Game's DIABLO_1 but actually is not working.
+(omit major, main codes..but it's no stress..compiling perfectly work)
+I want to be usesd these code for the meaning of education or studying on game-cheating 
+created by password123456
+*/
+
 #include <windows.h>
 #include "resource.h"
 #include "Tlhelp32.h"
@@ -59,7 +67,7 @@ BOOL CALLBACK MainDlgProc(HWND hDlg,UINT iMessage,WPARAM wParam,LPARAM lParam)
 			
 			if (!hWindow)
 			{
-				MessageBox(NULL,"DIABLO 1¿Ã Ω««‡µ«¡ˆ æ æ“Ω¿¥œ¥Ÿ.", "DIABLO 1 - 3 Trainer",MB_OK | MB_ICONWARNING);
+				MessageBox(NULL,"DIABLO 1Ïù¥ Ïã§ÌñâÎêòÏßÄ ÏïäÏïòÏäµÎãàÎã§.", "DIABLO 1 - 3 Trainer",MB_OK | MB_ICONWARNING);
 				break;
 			}
 			else
@@ -75,7 +83,7 @@ BOOL CALLBACK MainDlgProc(HWND hDlg,UINT iMessage,WPARAM wParam,LPARAM lParam)
 			
 			if (!hWindow)
 			{
-				MessageBox(NULL,"DIABLO 1¿Ã Ω««‡µ«¡ˆ æ æ“Ω¿¥œ¥Ÿ.", "DIABLO 1 - 3 Trainer",MB_OK | MB_ICONWARNING);
+				MessageBox(NULL,"DIABLO 1Ïù¥ Ïã§ÌñâÎêòÏßÄ ÏïäÏïòÏäµÎãàÎã§.", "DIABLO 1 - 3 Trainer",MB_OK | MB_ICONWARNING);
 				break;
 			}
 			else
@@ -93,7 +101,7 @@ BOOL CALLBACK MainDlgProc(HWND hDlg,UINT iMessage,WPARAM wParam,LPARAM lParam)
 			
 			if (!hWindow)
 			{
-				MessageBox(NULL,"DIABLO 1¿Ã Ω««‡µ«¡ˆ æ æ“Ω¿¥œ¥Ÿ.", "DIABLO 1 - 3 Trainer",MB_OK | MB_ICONWARNING);
+				MessageBox(NULL,"DIABLO 1Ïù¥ Ïã§ÌñâÎêòÏßÄ ÏïäÏïòÏäµÎãàÎã§.", "DIABLO 1 - 3 Trainer",MB_OK | MB_ICONWARNING);
 				break;
 			}
 			else
@@ -146,7 +154,7 @@ BOOL MAXEXPlV50ON(DWORD dwPid)
 	if (bWrite && bWrite1 )
 	{
 		
-		MessageBox(NULL,"Lv50 / EXP √Ê¿¸ øœ∑·.", "DIABLO 1 - 3 Trainer",MB_OK | MB_ICONWARNING);
+		MessageBox(NULL,"Lv50 / EXP Ï∂©Ï†Ñ ÏôÑÎ£å.", "DIABLO 1 - 3 Trainer",MB_OK | MB_ICONWARNING);
 		return TRUE;
 	}
 	CloseHandle(hProcess);
@@ -177,7 +185,7 @@ BOOL InfiniteSTATPOINTON(DWORD dwPid)
 	if (bWrite && bWrite1)
 	{
 		
-		MessageBox(NULL,"Ω∫≈» ∆˜¿Œ∆Æ π´«— øœ∑·.", "DIABLO 1 - 3 Trainer",MB_OK | MB_ICONWARNING);
+		MessageBox(NULL,"Ïä§ÌÉØ Ìè¨Ïù∏Ìä∏ Î¨¥Ìïú ÏôÑÎ£å.", "DIABLO 1 - 3 Trainer",MB_OK | MB_ICONWARNING);
 		return TRUE;
 	}
 	
@@ -188,23 +196,23 @@ BOOL InfiniteSTATPOINTON(DWORD dwPid)
 
 BOOL FREESHOPCOUPONON(DWORD dwPid)
 {
-	LPVOID lpAddress = (LPVOID)0x45ac75;
+	LPVOID lpAddress = (LPVOID)0x$MEMORY_ADDRESS_FOR_CHEATING;
 	BYTE lpPatchBuffer[] = {0xEB};
 	
-	LPVOID lpAddress1 = (LPVOID)0x45ADFE;
-	BYTE lpPatchBuffer1[] = {0xEB};
+	LPVOID lpAddress1 = (LPVOID)0x$MEMORY_ADDRESS_FOR_CHEATING;
+	BYTE lpPatchBuffer1[] = {0x$CHEAT_HEX_VALUE};
 
-	LPVOID lpAddress2 = (LPVOID)0x45B6E0;
-	BYTE lpPatchBuffer2[] = {0xEB};
+	LPVOID lpAddress2 = (LPVOID)0x$MEMORY_ADDRESS_FOR_CHEATING;
+	BYTE lpPatchBuffer2[] = {0x$CHEAT_HEX_VALUE};
 
-	LPVOID lpAddress3 = (LPVOID)0x45BC00;
-	BYTE lpPatchBuffer3[] = {0xEB};
+	LPVOID lpAddress3 = (LPVOID)0x$MEMORY_ADDRESS_FOR_CHEATING;
+	BYTE lpPatchBuffer3[] = {0x$CHEAT_HEX_VALUE};
 
-	LPVOID lpAddress4 = (LPVOID)0x45B4B8;
-	BYTE lpPatchBuffer4[] = {0xEB};
+	LPVOID lpAddress4 = (LPVOID)0x$MEMORY_ADDRESS_FOR_CHEATING;
+	BYTE lpPatchBuffer4[] = {0x$CHEAT_HEX_VALUE};
 
-	LPVOID lpAddress5 = (LPVOID)0x0045B8DD;
-	BYTE lpPatchBuffer5[] = {0xEB};
+	LPVOID lpAddress5 = (LPVOID)0x$MEMORY_ADDRESS_FOR_CHEATING;
+	BYTE lpPatchBuffer5[] = {0x$CHEAT_HEX_VALUE};
 
 	HANDLE hProcess = OpenProcess(PROCESS_ALL_ACCESS, FALSE, dwPid);
 	
@@ -232,7 +240,7 @@ BOOL FREESHOPCOUPONON(DWORD dwPid)
 	if (bWrite && bWrite1 && bWrite2 && bWrite3 && bWrite4 && bWrite5)
 	{
 		
-		MessageBox(NULL,"∞¯¬• ªÛ¡° ¿ÃøÎ±« øœ∑·.", "DIABLO 1 - 3 Trainer",MB_OK | MB_ICONWARNING);
+		MessageBox(NULL,"Í≥µÏßú ÏÉÅÏ†ê Ïù¥Ïö©Í∂å ÏôÑÎ£å.", "DIABLO 1 - 3 Trainer",MB_OK | MB_ICONWARNING);
 		return TRUE;
 	}
 	CloseHandle(hProcess);
