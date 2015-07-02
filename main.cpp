@@ -2,7 +2,7 @@
 This is simple WIN32 writeprocessmemory API POC codes for to do cheat the game.
 The POC codes for PC Game's DIABLO_1 but actually is not working.
 (omit major, main codes..but it's no stress..compiling perfectly works.)
-I want to be usesd these code for the meaning of education or studying on game-cheating 
+I want to be used these code for the meaning of education or studying on the game-cheating 
 created by password123456
 */
 
