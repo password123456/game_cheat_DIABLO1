@@ -1,7 +1,7 @@
 # Game Cheat Diablo I
 
 Overview:
-- This is simple WIN32 writeprocessmemory API POC codes for to do cheat the game.
+- This is a simple WIN32 writeprocessmemory API POC codes for to do cheat the game.
 - The POC codes for PC Game's DIABLO_1 but actually is not working.
 - omit major, main codes..but it's no stress..compiling perfectly work
 - I want to be used these code for the meaning of education, studying on the game-cheating   
